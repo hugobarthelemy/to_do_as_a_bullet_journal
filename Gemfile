@@ -15,6 +15,11 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
+gem 'js-routes'
+gem 'react-rails', '~> 1.2'
+source 'https://rails-assets.org/' do
+  gem 'rails-assets-classnames'
+end
 
 group :development do
   gem 'web-console', '>= 3.3.0'
