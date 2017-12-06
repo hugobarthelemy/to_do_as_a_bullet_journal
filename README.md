@@ -1,6 +1,7 @@
-# Welcome to the To do list as a bullet journal
+# Welcome to the To do list as a bullet journal app
 [![Build Status](https://travis-ci.org/hugobarthelemy/to_do_as_a_bullet_journal.svg?branch=master)](https://travis-ci.org/hugobarthelemy/to_do_as_a_bullet_journal)
 
+You can see the app here : https://to-do-list-as-a-bullet-journal.herokuapp.com/
 # Install local app
 ## Clone
 `git@github.com:hugobarthelemy/to_do_as_a_bullet_journal.git`
