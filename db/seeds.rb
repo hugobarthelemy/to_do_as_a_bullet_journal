@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+tasks_list = ['Ranger ma chambre', 'Acheter un hélicoptère', 'Sortir mamie', 'Sortir bébé du congel']
+
+tasks_list.map do |task|
+  Task.create(title: task, due_date: DateTime.now)
+end
