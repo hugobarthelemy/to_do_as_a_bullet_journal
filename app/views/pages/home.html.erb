@@ -1,2 +1,10 @@
-<h1>Your to do as a bullet journal</h1>
-<%= link_to 'Test it!', tasks_path %>
+<div class="banner"
+     style="background-image: linear-gradient(-225deg,
+         rgba(0,101,168,0.6) 0%,
+         rgba(0,36,61,0.6) 50%),
+         url('https://images.unsplash.com/photo-1506784926709-22f1ec395907?auto=format&fit=crop&w=3296&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');">
+  <div class="banner-content">
+    <h1>Your to do list as a bullet journal</h1>
+    <%= link_to "Test it!", tasks_path, class: "btn btn-info btn-lg" %>
+  </div>
+</div>
