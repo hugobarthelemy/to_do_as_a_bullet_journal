@@ -20,6 +20,7 @@ gem 'react-rails', '~> 1.2'
 source 'https://rails-assets.org/' do
   gem 'rails-assets-classnames'
 end
+gem 'database_cleaner', '~> 1.6.1'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
