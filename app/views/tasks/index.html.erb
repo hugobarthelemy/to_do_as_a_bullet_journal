@@ -1,11 +1,11 @@
 <div class="container">
   <div class="row">
-
-      <h1>Your bullet journal</h1>
-      <%= @tasks %>
-      <%= render(template: 'tasks/index.json.jbuilder') %>
-      <%= react_component "DayList",
-                          render(template: 'tasks/index.json.jbuilder') %>
+    <h1>Your bullet journal</h1>
+    <%= @tasks %>
+    <%= render(template: 'tasks/index.json.jbuilder') %>
+    <%= react_component "DayList",
+                        render(template: 'tasks/index.json.jbuilder') %>
+    <%= @week_tasks %>
 
   </div>
 </div>
