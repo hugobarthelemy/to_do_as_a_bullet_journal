@@ -10,3 +10,4 @@ public/assets
 
 # Ignore application configuration
 /config/application.yml
+.idea/workspace.xml
